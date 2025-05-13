@@ -1,0 +1,5 @@
+SalesOffice(NUM(PK),Loc)
+Employee(ID (PK),Name,NUM)
+Property(ID (PK),Add,City,State,Zip,NUM)
+Owner(ID (PK),Name)
+Property_Owner(ID,Percent_owned)

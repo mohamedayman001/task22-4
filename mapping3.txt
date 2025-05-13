@@ -1,0 +1,11 @@
+Patient(ID(PK),Name, DOB,IDW,IDC)
+Consultant(IDC(PK), Name)
+Nurse(IDN(PK), Name,IDW)
+Ward(IDW(PK), Name,IDN)
+Drug(Brand, Code(PK), Rec Dosage,IDN)
+Patient_Consultant(IDC,ID)
+Patient_Drug(ID,Code,Date,Time,Dosage)
+
+
+
+

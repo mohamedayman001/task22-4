@@ -1,0 +1,6 @@
+Musician(ID (PK),Name,Address (composite) (Street,City),Phone,Id)
+Instrument(Name (PK),Key)
+Song(Title(PK),Author,Id)
+Album(Id(PK),Title,Date)
+Musician_Instrument(ID,Name)
+Musician_Song(ID,Title)
